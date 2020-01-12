@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(241, 241, 241);
+    background-color: #f8f9fb;
 }
 
 h1 {
@@ -7,6 +7,7 @@ h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 4rem;
     font-weight: 600;
+    margin-top: 0;
 }
 
 h3 {
@@ -33,7 +34,6 @@ section#all-content {
 }
 
 #right-side {
-    height: 100%;
     position: relative;
     display: inline-block;
     margin-right: auto;
@@ -50,4 +50,17 @@ section#all-content {
 #pic-of-me {
     max-width: 30%;
     /* margin-left: 30%; */
+}
+
+#social-icons-parent {
+    position: absolute;
+    bottom: 0;
+}
+
+.social-icon {
+    margin-right: .3rem;
+}
+
+.links-menu {
+    margin: 0 0 .3rem 0;
 }
