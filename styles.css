@@ -8,6 +8,7 @@ h1 {
     font-size: 4rem;
     font-weight: 600;
     margin-top: 0;
+    line-height: 2.9rem;
 }
 
 h3 {
@@ -26,6 +27,18 @@ h4 {
 
 p {
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2368a2;
+    /* border-bottom: 1px #194a71 solid; */
+    padding-bottom: 1px;
+}
+
+a:hover {
+    color: #475059;
+    /* border-bottom: 1px solid #475059; */
 }
 
 section#all-content {
@@ -54,13 +67,20 @@ section#all-content {
 
 #social-icons-parent {
     position: absolute;
-    bottom: 0;
+    bottom: 1px;
+    width: 100%;
 }
 
 .social-icon {
     margin-right: .3rem;
+    vertical-align: text-top;
 }
 
 .links-menu {
     margin: 0 0 .3rem 0;
+}
+
+.next-float-right {
+    float: right;
+    padding-top: .6rem;
 }
