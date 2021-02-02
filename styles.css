@@ -133,6 +133,17 @@ a:hover {
     margin-top: 3rem;
 }
 
+#social-container-upper-left {
+    margin-top: 3rem;
+    margin-left: 0;
+}
+
+#ghost {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+
 @media (max-width: 992px) {
    #projects-title {
        text-align: center;
